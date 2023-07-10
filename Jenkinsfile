@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Done') {
+      steps {
+        sh 'echo \'done\''
+      }
+    }
+
   }
 }
